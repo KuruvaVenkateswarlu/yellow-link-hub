@@ -1,13 +1,30 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import ProfileHeader from "@/components/ProfileHeader";
+import ProductCard from "@/components/ProductCard";
+import SocialLinks from "@/components/SocialLinks";
+import { products } from "@/data/products";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <main className="min-h-screen px-4 py-12">
+      <div className="container max-w-lg mx-auto">
+        <ProfileHeader />
+        
+        <div className="space-y-3">
+          {products.map((product, index) => (
+            <ProductCard key={product.id} product={product} index={index} />
+          ))}
+        </div>
+
+        <SocialLinks />
+
+        <p 
+          className="text-center text-xs text-muted-foreground mt-8 opacity-0 animate-fade-up"
+          style={{ animationDelay: "700ms" }}
+        >
+          Links may include affiliate commissions
+        </p>
       </div>
-    </div>
+    </main>
   );
 };
 
