@@ -14,17 +14,17 @@ export interface Product {
 export const products: Product[] = [
   {
     id: "1",
-    title: "Sony WH-1000XM5 Headphones",
-    description: "Industry-leading noise cancellation with 30h battery life.",
-    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=200&h=200&fit=crop",
-    link: "https://example.com/affiliate-headphones",
+    title: "Wood Smart Multipurpose Foldable Laptop Table",
+    description: "Laptop Table with Cup Holder, Study Table, Bed Table, Breakfast Table, Foldable and Portable/Ergonomic & Rounded Edges/Non-Slip Legs (Black), 59 cm, 8 cm",
+    image: "https://m.media-amazon.com/images/I/71xiQD+sh8L._SL1500_.jpg",
+    link: "https://amzn.to/4pyekPR",
   },
   {
     id: "2",
-    title: "Keychron K2 Mechanical Keyboard",
-    description: "Wireless mechanical keyboard with RGB backlight.",
-    image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=200&h=200&fit=crop",
-    link: "https://example.com/affiliate-keyboard",
+    title: "2000 ml Silicone Bottle  (Pack of 3, Multicolor)",
+    description: "SeaRegal 3 pcs Unbreakable Water Bottle with Motivational Time Marker",
+    image: "/photos/bottle.jpeg",
+    link: "https://fkrt.co/5UY8aA",
   },
   {
     id: "3",
@@ -63,7 +63,7 @@ export const products: Product[] = [
 export const profileInfo = {
   name: "TechDeals",
   tagline: "Curated Tech & Exclusive Deals",
-  avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face",
+  avatar: "/photos/profile.png",
 };
 
 // ============================================
@@ -71,8 +71,6 @@ export const profileInfo = {
 // ============================================
 
 export const socialLinks = [
-  { name: "Instagram", url: "https://instagram.com/yourprofile", icon: "instagram" },
-  { name: "YouTube", url: "https://youtube.com/@yourchannel", icon: "youtube" },
-  { name: "Telegram", url: "https://t.me/yourchannel", icon: "telegram" },
-  { name: "Twitter", url: "https://twitter.com/yourprofile", icon: "twitter" },
+  { name: "Instagram", url: "https://www.instagram.com/vipul.va.88/", icon: "instagram" },
+  { name: "YouTube", url: "https://www.youtube.com/@vipul_daires", icon: "youtube" },
 ];
